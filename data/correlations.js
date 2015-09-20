@@ -5388,8 +5388,7 @@ var dataTopNve = ["SE.ADT.1524.LT.MA.ZS",
     "SE.ADT.LITR.MA.ZS",
     "SP.DYN.TO65.FE.ZS"];
 
-var dataTopPve = ["SH.DYN.MORT",
-    "SP.DYN.IMRT.IN",
+var dataTopPve = ["SP.DYN.IMRT.IN",
     "GC.FIN.DOMS.CN",
     "SL.TLF.0714.FE.ZS",
     "GC.FIN.DOMS.GD.ZS",
@@ -5397,4 +5396,5 @@ var dataTopPve = ["SH.DYN.MORT",
     "SL.TLF.0714.ZS",
     "GC.TAX.IMPT.CN",
     "SL.TLF.0714.MA.ZS",
-    "SH.STA.MMRT"];
+    "SH.STA.MMRT",
+    "GC.TAX.OTHR.RV.ZS"];
