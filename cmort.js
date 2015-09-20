@@ -180,14 +180,19 @@ function displayChart() {
 // Update the map markers with the selected indicator. Called when an indicator is selected through mouse click on the chart
 function updateMap(event, ctx, config, data, other) {
     //console.log(other);
-    var ind = other.v2.substring(0, other.v2.indexOf('<br/>'));
 
-    selectedIndex = ind;
-
-    if (ind == "") {
+    if (other == null) {
         mapObject.removeAllMarkers();
+        mapObject.scale = mapObject.baseScale;
+        mapObject.transX = mapObject.baseTransX;
+        mapObject.transY = mapObject.baseTransY;
+        mapObject.applyTransform();
+        document.getElementById("indicatorText").innerHTML = "";
 
     } else {
+        var ind = other.v2.substring(0, other.v2.indexOf('<br/>'));
+
+        selectedIndex = ind;
         mapObject.removeAllMarkers();
 
         var markers = indicators['coords'];
