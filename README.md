@@ -1,5 +1,5 @@
 ## Goal: Reduce Child Mortality (Under the age of 5, per 1000 birth)
-### [See Demo Here](http://shero83.github.io/Reduce-Child-Mortality/)
+### [See It Here](http://shero83.github.io/Reduce-Child-Mortality/)
 
 **Correlation of Child Mortality with World Bank Development Indicators**
 
